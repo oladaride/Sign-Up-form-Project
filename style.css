@@ -22,7 +22,7 @@ body{
 .word-info{
     height:500px;
     width:40%;
-/*     border:1px red solid; */
+   /*  border:1px red solid; */
     color:white;
 
 }
@@ -146,7 +146,7 @@ input{
     }
 
     .inputs{
-        padding-left:38px;
+        flex-wrap:wrap;
     }
     .input-wrap{
         background:white;
@@ -160,7 +160,7 @@ input{
     
     }
     input{
-        width:300px;
+        width:80%;
         height:60px;
         border-radius: 5px;
         display:block;
@@ -175,18 +175,23 @@ input{
     }
     
     .claim button{
-        width:335px;
+        width:90%;
         height:60px;
         border-radius: 5px;
         font-size: 14px;
         background:hsl(154, 59%, 51%);
         color:white;
         border-style: none;
-        margin-left:8px;
-    
-    
 
-        
+         
+    }
+
+    #sub{
+
+    }
+    .claimButton{
+        display:flex;
+        justify-content:space-around;
     }
     .claim p{
         font-size:13px;
